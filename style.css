@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  background-color: #f5f7fb;
+  color: #111827;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  color: #1e3a8a;
+  font-weight: 600;
+}
+
+p {
+  color: #374151;
+}
+
+a {
+  color: #1e3a8a;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.error {
+  color: #b91c1c;
+  font-weight: 500;
+}
+
+.success {
+  color: #16a34a;
+  font-weight: 500;
+}
