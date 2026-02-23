@@ -74,13 +74,12 @@
           placeholder="Enter Password"
           required
         />
+        <p style="color: red; text-align: center">
+          <%= request.getAttribute("error") != null ?
+          request.getAttribute("error"): "" %>
+        </p>
         <input type="submit" value="Login" />
       </form>
-
-      <p style="color: red">
-        <%= request.getAttribute("error") != null ?
-        request.getAttribute("error"): "" %>
-      </p>
     </div>
   </body>
 </html>
