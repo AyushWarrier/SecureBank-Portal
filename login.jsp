@@ -53,6 +53,8 @@
     </style>
   </head>
   <body>
+    <% model.User user = (model.User) session.getAttribute("user"); if (user !=
+    null) { response.sendRedirect("dashboard.jsp"); return; } %>
     <div class="box">
       <div class="branding">
         <h2>SecureBank</h2>
